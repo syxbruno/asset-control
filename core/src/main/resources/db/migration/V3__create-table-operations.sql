@@ -3,9 +3,9 @@ CREATE TABLE operations (
     userId INT NOT NULL,
     assetsId INT NOT NULL,
     amount INT NOT NULL,
-    unitPrice DECIMAL(10,2) NOT NULL,
+    unitPrice INT NOT NULL,
     operationType ENUM('buy','sale') NOT NULL,
-    brokerage DECIMAL(10,2) NOT NULL,
+    brokerage INT NOT NULL,
     operationDate DATETIME NOT NULL,
 
     FOREIGN KEY (userId) REFERENCES user(id),

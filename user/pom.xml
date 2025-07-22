@@ -12,23 +12,14 @@
 		<relativePath>../</relativePath>
 	</parent>
 
-	<artifactId>discovery</artifactId>
+	<artifactId>user</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>discovery</name>
-
-	<properties>
-		<java.version>21</java.version>
-	</properties>
+	<name>user</name>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-dependencies</artifactId>
+			<groupId>syxbruno.com</groupId>
+			<artifactId>core</artifactId>
 		</dependency>
 	</dependencies>
 
