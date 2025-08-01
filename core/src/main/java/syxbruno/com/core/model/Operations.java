@@ -11,6 +11,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import syxbruno.com.core.enums.TypeOperation;
 
 @Builder
 @Data
@@ -26,7 +27,7 @@ public class Operations {
   private UUID assetsId;
   private int amount;
   private int unitPrice;
-  private TypeOperation type;
   private int brokerage;
+  private TypeOperation type;
   private LocalDateTime date;
 }

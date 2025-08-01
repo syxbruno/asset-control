@@ -6,6 +6,6 @@ CREATE TABLE position (
     midPrice INT NOT NULL,
     pl INT NOT NULL,
 
-    FOREIGN KEY (userId) REFERENCES user(id),
+    FOREIGN KEY (userId) REFERENCES users(id),
     FOREIGN KEY (assetsId) REFERENCES assets(id)
 );

@@ -1,4 +1,4 @@
-package syxbruno.com.core.model;
+package syxbruno.com.core.enums;
 
 public enum TypeOperation {
 

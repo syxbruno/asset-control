@@ -1,6 +1,8 @@
-CREATE TABLE user (
+CREATE TABLE users (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
-    brokerage DECIMAL(5,2) NOT NULL
+    password VARCHAR(100) NOT NULL,
+    role ENUM('USER','ADMIN') NOT NULL,
+    brokerage INT NOT NULL
 );

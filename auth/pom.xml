@@ -11,14 +11,19 @@
     <version>1.0</version>
   </parent>
 
-  <artifactId>user</artifactId>
+  <artifactId>auth</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>user</name>
+  <name>auth</name>
 
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>syxbruno.com</groupId>
+      <artifactId>user</artifactId>
     </dependency>
 
     <dependency>
@@ -58,6 +63,7 @@
           </annotationProcessorPaths>
         </configuration>
       </plugin>
+
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
